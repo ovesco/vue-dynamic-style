@@ -1,10 +1,10 @@
 {
     "name": "vue-dynamic-style",
     "description": "Declare dynamic styles in your components",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "main": "index.js",
     "scripts": {
-        "test": "mocha test.js --require esm",
+        "test": "echo \"No test specified\"",
         "build": "webpack"
     },
     "dependencies": {
