@@ -1,0 +1,39 @@
+{
+    "name": "vue-dynamic-style",
+    "description": "Declare dynamic styles in your components",
+    "version": "0.1.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha test.js --require esm",
+        "build": "webpack"
+    },
+    "dependencies": {
+        "deepmerge": "^4.2.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ovesco/vue-dynamic-style.git"
+    },
+    "keywords": [
+        "vue",
+        "css",
+        "style"
+    ],
+    "author": "Guillaume Hochet <guillaume.hochet@gmail.com>",
+    "license": "MIT",
+
+    "devDependencies": {
+        "@babel/core": "^7.7.2",
+        "@babel/preset-env": "^7.7.1",
+        "babel-loader": "^8.0.6",
+        "babel-minify-webpack-plugin": "^0.3.1",
+        "chai": "^4.2.0",
+        "esm": "^3.2.25",
+        "mocha": "^6.2.2",
+        "parallel-webpack": "^2.4.0",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "vue": "^2.6.10",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+    }
+}
