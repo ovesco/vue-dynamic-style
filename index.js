@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign */
-const merge = require('deepmerge');
+import merge from 'deepmerge';
 
 class StyleManager {
   constructor(options) {
@@ -35,7 +35,7 @@ class StyleManager {
   }
 
   $destroy() {
-    this.styleNode.parentNode.removeChild(this.styleNode);
+    if (this.styleNode.parentNode) this.styleNode.parentNode.removeChild(this.styleNode);
   }
 }
 
@@ -52,7 +52,7 @@ const styleStringifier = style => Object.entries(style).reduce((txt, [key, value
   return `${txt} ${key} { ${valuesText} }`;
 }, '');
 
-module.exports = {
+export default {
   install(Vue, options = {}) {
     const config = merge({
       styleStringifier,

@@ -21,7 +21,6 @@
     ],
     "author": "Guillaume Hochet <guillaume.hochet@gmail.com>",
     "license": "MIT",
-
     "devDependencies": {
         "@babel/core": "^7.7.2",
         "@babel/preset-env": "^7.7.1",
