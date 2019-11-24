@@ -1,42 +1,74 @@
 {
+  "_args": [
+    [
+      "vue-dynamic-style@0.1.1",
+      "C:\\Users\\Guillaume Hochet\\Desktop\\eloquent"
+    ]
+  ],
+  "_from": "vue-dynamic-style@0.1.1",
+  "_id": "vue-dynamic-style@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-PXUYymWePeGaBb9QdDGW9QKBZDPpyrnPffhmZXh8BG3Oooe+4Jtfvwl0MF643/4+z39CCmLXfrB0BkDh9S2pEw==",
+  "_location": "/vue-dynamic-style",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "vue-dynamic-style@0.1.1",
     "name": "vue-dynamic-style",
-    "description": "Declare dynamic styles in your components",
-<<<<<<< HEAD
-    "version": "0.1.0",
-=======
-    "version": "0.1.1",
->>>>>>> 012c078aff5d7e76483e9e0d56d16966b74614bd
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"No test specified\"",
-        "build": "webpack"
-    },
-    "dependencies": {
-        "deepmerge": "^4.2.2"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ovesco/vue-dynamic-style.git"
-    },
-    "keywords": [
-        "vue",
-        "css",
-        "style"
-    ],
-    "author": "Guillaume Hochet <guillaume.hochet@gmail.com>",
-    "license": "MIT",
-    "devDependencies": {
-        "@babel/core": "^7.7.2",
-        "@babel/preset-env": "^7.7.1",
-        "babel-loader": "^8.0.6",
-        "babel-minify-webpack-plugin": "^0.3.1",
-        "chai": "^4.2.0",
-        "esm": "^3.2.25",
-        "mocha": "^6.2.2",
-        "parallel-webpack": "^2.4.0",
-        "uglifyjs-webpack-plugin": "^2.2.0",
-        "vue": "^2.6.10",
-        "webpack": "^4.41.2",
-        "webpack-cli": "^3.3.10"
-    }
+    "escapedName": "vue-dynamic-style",
+    "rawSpec": "0.1.1",
+    "saveSpec": null,
+    "fetchSpec": "0.1.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-dynamic-style/-/vue-dynamic-style-0.1.1.tgz",
+  "_spec": "0.1.1",
+  "_where": "C:\\Users\\Guillaume Hochet\\Desktop\\eloquent",
+  "author": {
+    "name": "Guillaume Hochet",
+    "email": "guillaume.hochet@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ovesco/vue-dynamic-style/issues"
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "flat": "^5.0.0"
+  },
+  "description": "Declare dynamic styles in your components",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "mocha": "^6.2.2",
+    "parallel-webpack": "^2.4.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue": "^2.6.10",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "homepage": "https://github.com/ovesco/vue-dynamic-style#readme",
+  "keywords": [
+    "vue",
+    "css",
+    "style"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "vue-dynamic-style",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovesco/vue-dynamic-style.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"No test specified\""
+  },
+  "version": "0.1.1"
 }
