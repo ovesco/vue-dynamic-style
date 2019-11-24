@@ -1,7 +1,11 @@
 {
     "name": "vue-dynamic-style",
     "description": "Declare dynamic styles in your components",
+<<<<<<< HEAD
     "version": "0.1.0",
+=======
+    "version": "0.1.1",
+>>>>>>> 012c078aff5d7e76483e9e0d56d16966b74614bd
     "main": "index.js",
     "scripts": {
         "test": "echo \"No test specified\"",

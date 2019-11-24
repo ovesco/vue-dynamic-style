@@ -50,7 +50,21 @@ export default {
 }
 ```
 
-## JS to CSS strategy
+## Configuration
+The library can be easily customized with the following options.
+
+### scoped
+Default: `true`
+
+If the component's style are scoped or not. If true, a uniqid class is added to the component's root node and all style target
+properties will be prepended with this class.
+
+### prefix
+Default: `'ds-'`
+
+If scoped, the random class will be prefixed with this string.
+
+### styleStringifier
 The current JS to CSS renderer is very simple and lightweight and naive, it will convert objects of the following shape:
 ```json
 {
